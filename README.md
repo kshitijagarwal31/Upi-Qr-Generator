@@ -34,10 +34,11 @@ The QR code contains:
 ```bash
 Upi-Qr-Generator/
 │
-├── README.md      # Project documentation
-├── app.py         # Main Python script
-├── logo.png       # Logo embedded inside QR code
-├── sample_qr.png  # Sample QR for demo / README
+├── README.md         # Project documentation
+├── app.py            # Main Python script
+├── logo.png          # Logo embedded inside QR code
+├── requirements.txt  # Required dependencies to run this project
+├── sample_qr.png     # Sample QR for demo / README
 ```
 
 ## How It Works
@@ -54,31 +55,6 @@ upi://pay?pa=UPI_ID&pn=NAME&am=AMOUNT&cu=INR
 3. QR code is created from the UPI link
 4. Logo is placed at the center of the QR
 5. Final QR code image is generated and displayed
-
-## How to Run the Project
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/kshitijagarwal31/Upi-Qr-Generator.git
-
-```
-
-**Install Required Dependencies**
-
-```bash
-pip install qrcode
-
-pip install pillow
-
-```
-
-**Run the Application**
-
-```bash
-python app.py
-
-```
 
 
 
